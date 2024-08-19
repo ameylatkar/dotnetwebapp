@@ -17,5 +17,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/ameylatkar7397/Amey%20private%20experiments
-            azure-pipeline-name: 'Git- Dotnet WebApp'
+            azure-pipeline-name: 'Self Hosted Agent Demo Pipeline'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
