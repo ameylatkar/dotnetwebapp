@@ -31,9 +31,11 @@ jobs:
           script: 
               Write-Host "Hello GitHub Actions"
 
-      - name: git-bash
-        uses: pkg-src/github-action-git-bash@v1.1
-        with:
-          script: 
-            echo "Hi this from git bash"
-          
+      - name: Bash Script
+        run: | 
+            echo "hello github"
+            echo "how are you?"
+      
+
+
+
